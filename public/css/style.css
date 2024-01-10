@@ -196,6 +196,10 @@ header img {
 }
 
 /* EXCEPTIONS */
+.sign-up > * {
+    transition: all 0.2s ease-in-out;
+}
+
 .sign-up input:focus {
     outline: none;
     border-color: var(--clr-salmon-200);
