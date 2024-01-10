@@ -129,65 +129,65 @@ body {
     line-height: var(--hero-text-paragraph-line-height, 28px);
 }
 
-.hero-text-input-wrapper {
+.sign-up {
     position: relative;
-    width: var(--hero-text-input-width, 445px);
-    margin-top: var(--hero-text-input-margin-top, 40px);
+    width: var(--sign-up-width, 445px);
+    margin-top: var(--sign-up-margin-top, 40px);
 }
 
-.hero-text-input__field {
+.sign-up__input {
     display: block;
     width: 100%;
-    height: var(--hero-text-input-height, 58px);
+    height: var(--sign-up-input-height, 58px);
     border: 1px solid var(--clr-salmon-400);
-    border-radius: var(--hero-text-input-border-radius, 28px);
-    padding: var(--hero-text-input-padding, 15px 0 13px 32px);
+    border-radius: var(--sign-up-input-border-radius, 28px);
+    padding: var(--sign-up-input-padding, 15px 0 13px 32px);
     color: var(--clr-salmon-400);
     font-weight: 400;
-    font-size: var(--hero-text-input-font-size, 16px);
+    font-size: var(--sign-up-input-font-size, 16px);
     line-height: 28px;
 }
 
-.hero-text-input__field::placeholder {
+.sign-up__input::placeholder {
     color: var(--clr-salmon-400);
 }
 
-.hero-text-input__button {
+.sign-up__button {
     position: absolute;
-    width: var(--hero-text-button-width, 100px);
-    height: var(--hero-text-input-height, 58px);
+    width: var(--sign-up-button-width, 100px);
+    height: var(--sign-up-input-height, 58px);
     top: 0;
-    right: var(--hero-text-input-right, 0);
+    right: var(--sign-up-input-right, 0);
     background-color: var(--clr-salmon-600);
-    border-radius: var(--hero-text-input-border-radius, 28px);
+    border-radius: var(--sign-up-input-border-radius, 28px);
 }
 
-.hero-text-input__button-arrow {
-    width: var(--hero-text-button-arrow-width, 12px);
-    height: var(--hero-text-button-arrow-height, 20px);
+.sign-up__button-arrow {
+    width: var(--sign-up-button-arrow-width, 12px);
+    height: var(--sign-up-button-arrow-height, 20px);
 }
 
-.hero-text-input__error-txt {
+.sign-up-error__text {
     color: var(--clr-red-100);
     font-size: 13px;
     font-weight: 400;
-    line-height: var(--hero-text-input-error-txt-line-height, 28px);
-    padding: var(--hero-text-input-error-txt-padding, 4px 0 0 32px);
+    line-height: var(--sign-up-error-text-line-height, 28px);
+    padding: var(--sign-up-error-text-padding, 4px 0 0 32px);
 }
 
-.hero-text-input__error-img {
+.sign-up-error__image {
     position: absolute;
-    top: var(--hero-text-input-error-img-top, 17px);
-    right: var(--hero-text-input-error-img-right, 116px);
+    top: var(--sign-up-error-image-top, 17px);
+    right: var(--sign-up-error-image-right, 116px);
 }
 
 /* EXCEPTIONS */
-.hero-text-input__field:focus {
+.sign-up__input:focus {
     outline: none;
     border-color: var(--clr-salmon-200);
 }
 
-.hero-text-input__button:hover {
+.sign-up__button:hover {
     cursor: pointer;
     background-color: var(--clr-salmon-800);
 }
@@ -199,10 +199,10 @@ body {
         background-repeat: no-repeat;
         padding-left: 165px;
         column-gap: 220px;
-        grid-template: "head  img" 95px
-                       "txt   img" 1fr
-                       "input img" 1fr /
-                        444px 1fr;
+        grid-template: "head   img" 95px
+                       "txt    img" 1fr
+                       "signup img" 1fr /
+                        444px  1fr;
     }
 
     .hero-header {
@@ -227,6 +227,10 @@ body {
     .hero-text-inner-wrapper {
         --flow-space: 32px;
     }
+
+    .sign-up {
+        grid-area: signup;
+    }
 }
 
 /* MOBILE VERSION */
@@ -238,7 +242,7 @@ body {
         --logo-width: 100px;
         --logo-height: 21px;
 
-        /* hero-text*/
+        /* hero-text */
         --hero-text-padding: 64px 32px 0;
         --hero-text-title-font-size: 40px;
         --hero-text-title-letter-spacing: 10.825px;
@@ -246,25 +250,25 @@ body {
         --hero-text-paragraph-font-size: 14px;
         --hero-text-paragraph-line-height: 22px;
 
-        /* input-field */
-        --hero-text-input-width: 311px;
-        --hero-text-input-height: 48px;
-        --hero-text-input-margin-top: 32px;
-        --hero-text-input-padding: 11px 0 9px 24px;
-        --hero-text-input-border-radius: 24px;
-        --hero-text-input-font-size: 14px;
+        /* sign-up input-field */
+        --sign-up-width: 311px;
+        --sign-up-input-height: 48px;
+        --sign-up-margin-top: 32px;
+        --sign-up-input-padding: 11px 0 9px 24px;
+        --sign-up-input-border-radius: 24px;
+        --sign-up-input-font-size: 14px;
 
-        /* input-button */
-        --hero-text-button-width: 64px;
-        --hero-text-button-arrow-width: 10px;
-        --hero-text-button-arrow-height: 16px;
-        --hero-text-input-right: 32px;
+        /* sign-up button */
+        --sign-up-button-width: 64px;
+        --sign-up-button-arrow-width: 10px;
+        --sign-up-button-arrow-height: 16px;
+        --sign-up-input-right: 32px;
 
-        /* input-button error */
-        --hero-text-input-error-txt-line-height: normal;
-        --hero-text-input-error-txt-padding: 8px 0 0 24px;
-        --hero-text-input-error-img-top: 13px;
-        --hero-text-input-error-img-right: 104px;
+        /* sign-up error */
+        --sign-up-error-text-line-height: normal;
+        --sign-up-error-text-padding: 8px 0 0 24px;
+        --sign-up-error-image-top: 13px;
+        --sign-up-error-image-right: 104px;
     }
 
     .content {
@@ -289,13 +293,13 @@ body {
         --flow-space: 32px;
     }
 
-    .hero-text-input-wrapper {
+    .sign-up {
         width: 100%;
         height: 172px;
         padding: 0 32px;
     }
 
-    .hero-text-input__error-txt {
+    .sign-up-error__text {
         text-align: left;
     }
 }
