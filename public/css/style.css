@@ -227,15 +227,11 @@ body {
 
     .hero-text {
         grid-area: hero-text;
-        --flow-space: 40px;
+        --flow-space: 32px;
     }
 
     .hero-text__title {
         height: 128px;
-    }
-
-    .hero-text-inner-wrapper {
-        --flow-space: 32px;
     }
 
     .sign-up {
@@ -295,13 +291,9 @@ body {
         height: 250px;
     }
 
-    .hero-text-inner-wrapper {
-        --flow-space: 16px;
-    }
-
     .hero-text {
         text-align: center;
-        --flow-space: 32px;
+        --flow-space: 16px;
     }
 
     .sign-up {
