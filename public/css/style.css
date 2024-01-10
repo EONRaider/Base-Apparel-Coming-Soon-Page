@@ -212,7 +212,7 @@ header img {
 }
 
 /* DESKTOP VERSION */
-@media only screen and (width >= 1500px) {
+@media only screen and (width >= 1400px) {
     main {
         background-image: url("../images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
@@ -249,7 +249,7 @@ header img {
 }
 
 /* MOBILE VERSION */
-@media only screen and (width < 1500px) {
+@media only screen and (width < 1400px) {
     :root {
         /* content */
         --content-width: 375px;
