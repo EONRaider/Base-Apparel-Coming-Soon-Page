@@ -1,23 +1,19 @@
-/* Box sizing rules */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* Prevent font size inflation */
 html {
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
 }
 
-/* Remove default margin in favour of better control in authored CSS */
 body, h1, h2, p {
     margin: 0;
 }
 
-/* Make images easier to work with */
 img {
     max-width: 100%;
     display: block;
@@ -62,7 +58,7 @@ body {
     min-height: 100vh;
 }
 
-.content {
+main {
     display: grid;
     width: var(--content-width, 1440px);
     height: 800px;
@@ -93,6 +89,10 @@ header {
 
 .bg-primary {
     background: linear-gradient(150deg, var(--clr-white-800) 0%, var(--clr-white-600) 84.51%);
+}
+
+.bg-secondary {
+    background-color: var(--clr-salmon-600);
 }
 
 .clr-primary {
@@ -175,7 +175,6 @@ header img {
     height: var(--sign-up-input-height, 58px);
     top: 0;
     right: var(--sign-up-button-right, 0);
-    background-color: var(--clr-salmon-600);
     border-radius: var(--sign-up-input-border-radius, 28px);
 }
 
@@ -207,9 +206,14 @@ header img {
     background-color: var(--clr-salmon-800);
 }
 
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
 /* DESKTOP VERSION */
 @media only screen and (width >= 1500px) {
-    .content {
+    main {
         background-image: url("../images/bg-pattern-desktop.svg");
         background-repeat: no-repeat;
         padding-left: 165px;
@@ -285,7 +289,7 @@ header img {
         --sign-up-error-image-right: 104px;
     }
 
-    .content {
+    main {
         grid-template-rows: 84px auto 1fr;
     }
 
