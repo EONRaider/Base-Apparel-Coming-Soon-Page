@@ -68,7 +68,11 @@ body {
     height: 800px;
 }
 
-.hero__image {
+header {
+    display: flex;
+}
+
+.hero-image {
     background-repeat: no-repeat;
 }
 
@@ -127,24 +131,25 @@ body {
 }
 
 /* BLOCK */
-.hero-header__logo {
+header img {
+    /* Base Apparel logo */
     width: var(--logo-width, 158px);
     height: var(--logo-height, 33px);
 }
 
-.hero-text__title-highlight {
+.hero-text .title-highlight {
     font-size: var(--hero-text-title-font-size, 64px);
     letter-spacing: var(--hero-text-title-letter-spacing, 17.321px);
     line-height: var(--hero-text-title-line-height, 64px);
 }
 
-.hero-text__title {
+.hero-text .title {
     font-size: var(--hero-text-title-font-size, 64px);
     letter-spacing: var(--hero-text-title-letter-spacing, 17.321px);
     line-height: var(--hero-text-title-line-height, 71px);
 }
 
-.hero-text__paragraph {
+.hero-text p {
     font-size: var(--hero-text-paragraph-font-size, 16px);
     line-height: var(--hero-text-paragraph-line-height, 28px);
 }
@@ -215,12 +220,12 @@ body {
                         444px      1fr;
     }
 
-    .hero-header {
+    header {
         grid-area: header;
         align-items: flex-end;
     }
 
-    .hero__image {
+    .hero-image {
         grid-area: image;
         background-image: url("../images/hero-desktop.jpg");
     }
@@ -230,7 +235,7 @@ body {
         --flow-space: 32px;
     }
 
-    .hero-text__title {
+    .hero-text .title {
         height: 128px;
     }
 
@@ -282,11 +287,12 @@ body {
         grid-template-rows: 84px auto 1fr;
     }
 
-    .hero-header {
+    header {
         padding-left: 32px;
+        align-items: center;
     }
 
-    .hero__image {
+    .hero-image {
         background-image: url("../images/hero-mobile.jpg");
         height: 250px;
     }
