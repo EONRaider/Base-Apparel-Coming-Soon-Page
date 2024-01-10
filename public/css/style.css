@@ -62,7 +62,8 @@ body {
     min-height: 100vh;
 }
 
-.content-container {
+.content {
+    display: grid;
     width: var(--content-container-width, 1440px);
     height: 800px;
 }
@@ -88,11 +89,6 @@ body {
 }
 
 /* BLOCK */
-.content {
-    display: grid;
-    height: 100%;
-}
-
 .hero-header__logo {
     width: var(--logo-width, 158px);
     height: var(--logo-height, 33px);
