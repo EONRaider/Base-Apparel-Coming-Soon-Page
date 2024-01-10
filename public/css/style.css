@@ -199,24 +199,24 @@ body {
         background-repeat: no-repeat;
         padding-left: 165px;
         column-gap: 220px;
-        grid-template: "head   img" 95px
-                       "txt    img" 1fr
-                       "signup img" 1fr /
-                        444px  1fr;
+        grid-template: "header     image" 95px
+                       "hero-text  image" 1fr
+                       "sign-up     image" 1fr /
+                        444px      1fr;
     }
 
     .hero-header {
-        grid-area: head;
+        grid-area: header;
         align-items: flex-end;
     }
 
     .hero__image {
-        grid-area: img;
+        grid-area: image;
         background-image: url("../images/hero-desktop.jpg");
     }
 
     .hero-text {
-        grid-area: txt;
+        grid-area: hero-text;
         --flow-space: 40px;
     }
 
@@ -229,7 +229,7 @@ body {
     }
 
     .sign-up {
-        grid-area: signup;
+        grid-area: sign-up;
     }
 }
 
