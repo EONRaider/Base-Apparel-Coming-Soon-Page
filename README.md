@@ -1,9 +1,9 @@
-# Frontend Mentor - Project solution
+# Frontend Mentor - Base Apparel Coming Soon Page solution
 
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/project?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/project)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/base-apparel-coming-soon-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/base-apparel-coming-soon-page)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to [Project](). Frontend Mentor challenges help you
+This is a solution to [Base Apparel Coming Soon Page](). Frontend Mentor challenges help you
 improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -22,7 +22,7 @@ improve your coding skills by building realistic projects.
 
 ### Links
 
-- [Check the Live Site](https://eonraider-project.netlify.app/)
+- [Check the Live Site](https://eonraider-base-apparel.netlify.app/)
 - [My Solution on Frontend Mentor]()
 
 ### Screenshot
@@ -42,7 +42,7 @@ npm install && npm start
 The app will be available at http://127.0.0.1:3000/
 
 ```shell
-docker run -d -p 3000:3000 eonraider/project
+docker run -d -p 3000:3000 eonraider/base-apparel-coming-soon-page
 ```
 
 ## My process
