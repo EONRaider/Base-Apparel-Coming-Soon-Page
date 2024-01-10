@@ -200,8 +200,8 @@ body {
         padding-left: 165px;
         column-gap: 220px;
         grid-template: "header     image" 95px
-                       "hero-text  image" 1fr
-                       "sign-up     image" 1fr /
+                       "hero-text  image" 444px
+                       "sign-up    image" 1fr /
                         444px      1fr;
     }
 
