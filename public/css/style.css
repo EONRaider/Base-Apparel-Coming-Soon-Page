@@ -154,7 +154,7 @@ header img {
     line-height: var(--hero-text-paragraph-line-height, 28px);
 }
 
-.sign-up__input {
+.sign-up input {
     display: block;
     width: 100%;
     height: var(--sign-up-input-height, 58px);
@@ -165,11 +165,11 @@ header img {
     line-height: 28px;
 }
 
-.sign-up__input::placeholder {
+.sign-up input::placeholder {
     color: var(--clr-salmon-400);
 }
 
-.sign-up__button {
+.sign-up .button {
     position: absolute;
     width: var(--sign-up-button-width, 100px);
     height: var(--sign-up-input-height, 58px);
@@ -179,30 +179,30 @@ header img {
     border-radius: var(--sign-up-input-border-radius, 28px);
 }
 
-.sign-up__button-arrow {
+.sign-up .button .arrow-icon {
     width: var(--sign-up-button-arrow-width, 12px);
     height: var(--sign-up-button-arrow-height, 20px);
 }
 
-.sign-up-error__text {
+.sign-up .error-text {
     font-size: 13px;
     line-height: var(--sign-up-error-text-line-height, 28px);
     padding: var(--sign-up-error-text-padding, 4px 0 0 32px);
 }
 
-.sign-up-error__image {
+.sign-up .error-image {
     position: absolute;
     top: var(--sign-up-error-image-top, 17px);
     right: var(--sign-up-error-image-right, 116px);
 }
 
 /* EXCEPTIONS */
-.sign-up__input:focus {
+.sign-up input:focus {
     outline: none;
     border-color: var(--clr-salmon-200);
 }
 
-.sign-up__button:hover {
+.sign-up .button:hover {
     cursor: pointer;
     background-color: var(--clr-salmon-800);
 }
@@ -308,7 +308,7 @@ header img {
         padding: 0 32px;
     }
 
-    .sign-up-error__text {
+    .sign-up .error-text {
         text-align: left;
     }
 }
