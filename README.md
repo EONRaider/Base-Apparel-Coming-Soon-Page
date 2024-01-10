@@ -54,8 +54,7 @@ docker run -d -p 3000:3000 eonraider/base-apparel-coming-soon-page
    markup.
 3. I used Figma to acquire all the right dimensions involved in the layout and implemented them in the appropriate CSS
    classes.
-4. The [CSS Cube](https://cube.fyi/) methodology was used when coding the stylesheet and some of the conventions from
-   BEM were used when naming classes.
+4. The [CSS Cube](https://cube.fyi/) methodology was used when coding the stylesheet
 
 ### Built with
 
