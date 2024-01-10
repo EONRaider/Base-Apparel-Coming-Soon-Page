@@ -3,8 +3,9 @@
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/base-apparel-coming-soon-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/base-apparel-coming-soon-page)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
-This is a solution to [Base Apparel Coming Soon Page](). Frontend Mentor challenges help you
-improve your coding skills by building realistic projects.
+This is a solution
+to [Base Apparel Coming Soon Page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0).
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,16 +17,17 @@ improve your coding skills by building realistic projects.
     - [Run with Docker](#run-with-docker)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
 
 ## Overview
 
 ### Links
 
 - [Check the Live Site](https://eonraider-base-apparel.netlify.app/)
-- [My Solution on Frontend Mentor]()
+- [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-html5css3js-base-apparel-coming-soon-page-7AOsyaU-oO)
 
 ### Screenshot
+
+![Base-Apparel-Coming-Soon](https://github.com/EONRaider/Base-Apparel-Coming-Soon-Page/assets/15611424/5156b053-807f-4d38-8f6d-f09cfe42bcb5)
 
 ## Try it out!
 
@@ -59,5 +61,3 @@ docker run -d -p 3000:3000 eonraider/base-apparel-coming-soon-page
 
 - Semantic HTML5 markup
 - Cube CSS methodology
-
-### What I learned
