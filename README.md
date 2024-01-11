@@ -27,7 +27,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Screenshot
 
-![Base-Apparel-Coming-Soon](https://github.com/EONRaider/Base-Apparel-Coming-Soon-Page/assets/15611424/5156b053-807f-4d38-8f6d-f09cfe42bcb5)
+![Base-Apparel-Coming-Soon](https://github.com/Havoc-Solutions/base-apparel-coming-soon-page/assets/15611424/b74ff33b-d2c5-4d37-a507-71fd13828e59)
 
 ## Try it out!
 
