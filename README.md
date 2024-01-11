@@ -1,6 +1,6 @@
 # Frontend Mentor - Base Apparel Coming Soon Page solution
 
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/EONRaider/base-apparel-coming-soon-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/eonraider/base-apparel-coming-soon-page)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/havoc-solutions/base-apparel-coming-soon-page?label=CodeFactor&logo=codefactor&style=flat-square)](https://www.codefactor.io/repository/github/havoc-solutions/base-apparel-coming-soon-page)
 [![FrontendMentor](https://img.shields.io/badge/FrontendMentor-EONRaider-blue?style=flat-square)](https://www.frontendmentor.io/profile/EONRaider)
 
 This is a solution
